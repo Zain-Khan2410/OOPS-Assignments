@@ -80,9 +80,6 @@ public:
         }
         return result;
     }
-    
-
-
 };  
 int main(){
  int rows1, cols1, rows2, cols2;
@@ -97,22 +94,21 @@ int main(){
     Matrix m2(rows2, cols2);
     m2.inputMatrix();
 
-    // Display matrices
-    cout << "\nMatrix 1:" << endl;
+    cout <<"Matrix 1:" << endl;
     m1.displayMatrix();
 
-    cout << "\nMatrix 2:" << endl;
+    cout <<"Matrix 2:" << endl;
     m2.displayMatrix();
 
     Matrix sum = m1.add(m2);
-
-        cout << "Sum of Matrix 1 and Matrix 2:" << endl;
-        sum.displayMatrix();
+    cout << "Sum of Matrix 1 and Matrix 2:" << endl;
+    sum.displayMatrix();
     
     Matrix product = m1.product(m2);
     cout<<"Product of Matrix 1 aand Matrix 2: " << endl;
     product.displayMatrix();
-    }
+
+}
    
   
  
