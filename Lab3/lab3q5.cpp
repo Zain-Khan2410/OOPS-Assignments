@@ -32,7 +32,7 @@ public:
         return this->Publisher;
     }
 
-    void Bookinfo() {
+    void getBookinfo() {
         cout << "Book Name: " << Bookname << endl;
         cout << "ISBN number: " << ISBNno << endl;
         cout << "Author Name: " << Authorname << endl;
